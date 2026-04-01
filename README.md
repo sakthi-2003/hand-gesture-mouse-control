@@ -1,37 +1,26 @@
-# 🖱️ Hand Gesture Mouse Control ✋
+# 🖐️ Hand Gesture Mouse Control  
+### Real-Time Computer Vision System using MediaPipe + OpenCV
 
-Control your computer mouse in real-time using hand gestures powered by MediaPipe and OpenCV.
+Control your computer mouse using just your hand — no hardware required.  
+This project uses **MediaPipe hand tracking + OpenCV + PyAutoGUI** to enable natural human-computer interaction.
 
 ---
 
 ## 🚀 Features
-
-- Move cursor using index finger
-- Click using thumb and index finger gesture
-- Real-time hand tracking
-- Smooth and responsive control
-
----
-
-## 🧠 How It Works
-
-- MediaPipe detects 21 hand landmarks
-- Index finger controls cursor position
-- Distance between thumb and index finger triggers click
-- PyAutoGUI maps hand movement to system mouse
+- 🎯 Smooth and stable cursor movement  
+- 🤏 Click using pinch gesture (thumb + index)  
+- 📜 Scroll using finger gestures  
+- ⚡ Real-time processing (low latency)  
+- 🧠 ML-powered hand landmark detection  
 
 ---
 
 ## 🛠️ Tech Stack
-
-- Python
-- OpenCV
-- MediaPipe
-- PyAutoGUI
+- **Python**
+- **OpenCV**
+- **MediaPipe**
+- **PyAutoGUI**
 
 ---
 
-## 📦 Installation
-
-```bash
-pip install mediapipe opencv-python pyautogui
+## 📂 Project Structure
